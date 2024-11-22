@@ -1,6 +1,7 @@
-import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+
 import './globals.css';
+import type { Metadata } from 'next';
 import type { NextFontWithVariable } from 'next/dist/compiled/@next/font';
 
 const geistSans: NextFontWithVariable = localFont({
